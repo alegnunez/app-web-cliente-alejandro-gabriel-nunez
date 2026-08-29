@@ -253,16 +253,34 @@
                 </ul>
             </nav>
 
-            <address>
-                <h2>Contacto</h2>
+            <section aria-labelledby="footer-contacto">
+                <h2 id="footer-contacto">Contacto</h2>
                 <p>Av. Siempre Viva 742, Ciudad</p>
                 <p>
-                    Teléfono: <a href="tel:+540111234567">(011) 1234-5678</a>
+                    <a href="https://wa.me/5491112345678" target="_blank" rel="noopener noreferrer">WhatsApp</a> |
+                    <a href="https://instagram.com/veterinariahuellitas" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </p>
-                <p>
-                    Email: <a href="mailto:contacto@huellitas.com">contacto@huellitas.com</a>
-                </p>
-            </address>
+
+                <form id="formulario-contacto" action="#" method="post">
+                    <div>
+                        <label for="nombre-contacto">Nombre</label>
+                        <input type="text" id="nombre-contacto" name="nombre" placeholder="Tu nombre" required minlength="2" maxlength="50" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ ]+" autocomplete="name">
+                    </div>
+                    <div>
+                        <label for="email-contacto">Email</label>
+                        <input type="email" id="email-contacto" name="email" placeholder="tu@email.com" required maxlength="100" autocomplete="email">
+                    </div>
+                    <div>
+                        <label for="numero-contacto">Número</label>
+                        <input type="tel" id="numero-contacto" name="numero" placeholder="+54911XXXXXXXX" required minlength="7" maxlength="15" pattern="\+54[0-9]{1,15}" autocomplete="tel">
+                    </div>
+                    <div>
+                        <label for="mensaje-contacto">Mensaje</label>
+                        <textarea id="mensaje-contacto" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required minlength="10" maxlength="500"></textarea>
+                    </div>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </section>
 
             <section aria-labelledby="footer-newsletter">
                 <h2 id="footer-newsletter">Suscribite a novedades</h2>
