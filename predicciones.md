@@ -5,3 +5,4 @@ Predicciones
 4. Comenzare con los estilos de css armando un archivo de variables.
 5. Agregare un par de cosas que faltaron en los archivos del anterior cambio, como reset de list style y jerarquia tipografica para los titulos.
 6. Ajustare las media queries para que el menu de header-nav y el control del carrusel sean mobile-first, empezando por mobile y agrandando con min-width.
+7. Agregare 4 productos de ejemplo hardcodeados en la grilla de productos, con fotos reales en la carpeta images, para poder ver y probar los estilos de las cards.
