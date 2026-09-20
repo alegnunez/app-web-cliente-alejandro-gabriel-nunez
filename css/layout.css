@@ -152,13 +152,20 @@ header {
 
 .header-nav ul {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--space-1);
   max-width: var(--container-max-width);
   margin: 0 auto;
   padding: var(--space-3) var(--container-padding);
-  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .header-nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .header-nav a {
@@ -269,9 +276,9 @@ main h2 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 44px;
-  height: 44px;
-  font-size: var(--font-size-xl);
+  width: 36px;
+  height: 36px;
+  font-size: var(--font-size-lg);
   color: var(--color-primary-contrast);
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
@@ -287,17 +294,17 @@ main h2 {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-.carrusel-control.anterior { left: var(--space-4); }
-.carrusel-control.siguiente { right: var(--space-4); }
+.carrusel-control.anterior { left: var(--space-2); }
+.carrusel-control.siguiente { right: var(--space-2); }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) {
   .carrusel-control {
-    width: 36px;
-    height: 36px;
-    font-size: var(--font-size-lg);
+    width: 44px;
+    height: 44px;
+    font-size: var(--font-size-xl);
   }
-  .carrusel-control.anterior { left: var(--space-2); }
-  .carrusel-control.siguiente { right: var(--space-2); }
+  .carrusel-control.anterior { left: var(--space-4); }
+  .carrusel-control.siguiente { right: var(--space-4); }
 }
 
 /* ========================================
