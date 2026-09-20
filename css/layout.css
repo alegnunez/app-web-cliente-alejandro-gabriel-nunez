@@ -102,7 +102,6 @@ header {
   display: flex;
   align-items: center;
   gap: var(--space-4);
-  list-style: none;
 }
 
 .header-user a,
@@ -159,7 +158,6 @@ header {
   max-width: var(--container-max-width);
   margin: 0 auto;
   padding: var(--space-3) var(--container-padding);
-  list-style: none;
   flex-wrap: wrap;
 }
 
@@ -315,7 +313,6 @@ main h2 {
   gap: var(--space-4);
   max-width: var(--container-max-width);
   margin: 0 auto;
-  list-style: none;
 }
 
 .categorias-lista a {
@@ -495,7 +492,6 @@ main h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: var(--space-6);
-  list-style: none;
 }
 
 /* Tarjeta de producto */
@@ -596,7 +592,6 @@ main h2 {
   flex: 1;
   overflow-y: auto;
   padding: var(--space-4);
-  list-style: none;
 }
 
 .carrito-item {
@@ -744,9 +739,7 @@ footer {
   margin-bottom: var(--space-2);
 }
 
-.footer-columnas ul {
-  list-style: none;
-}
+
 
 .footer-columnas li {
   margin-bottom: var(--space-2);
@@ -826,7 +819,6 @@ footer {
   flex-wrap: wrap;
   gap: var(--space-4);
   justify-content: center;
-  list-style: none;
 }
 
 .footer-pago li {
