@@ -51,9 +51,7 @@ header {
 
 .header-logo h1 {
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
   color: var(--color-primary);
-  line-height: var(--line-height-tight);
 }
 
 /* Search */
@@ -199,7 +197,6 @@ main section {
 
 main h2 {
   font-size: var(--font-size-3xl);
-  font-weight: var(--font-weight-bold);
   color: var(--color-text);
   margin-bottom: var(--space-6);
   text-align: center;
@@ -388,7 +385,6 @@ main h2 {
 
 #filtros h3 {
   font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-semibold);
   margin-bottom: var(--space-4);
   padding-bottom: var(--space-3);
   border-bottom: var(--border-width-thin) solid var(--color-border);
@@ -530,10 +526,8 @@ main h2 {
 
 .producto-card h3 {
   font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
   color: var(--color-text);
   margin-bottom: var(--space-2);
-  line-height: var(--line-height-snug);
 }
 
 .producto-card .precio {
@@ -574,7 +568,6 @@ main h2 {
 #carrito-panel h2 {
   padding: var(--space-4) var(--space-6);
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
   border-bottom: var(--border-width-thin) solid var(--color-border);
 }
 
