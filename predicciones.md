@@ -4,3 +4,4 @@ Predicciones
 3. Agregare validaciones para los datos de ese formulario.
 4. Comenzare con los estilos de css armando un archivo de variables.
 5. Agregare un par de cosas que faltaron en los archivos del anterior cambio, como reset de list style y jerarquia tipografica para los titulos.
+6. Ajustare las media queries para que el menu de header-nav y el control del carrusel sean mobile-first, empezando por mobile y agrandando con min-width.
