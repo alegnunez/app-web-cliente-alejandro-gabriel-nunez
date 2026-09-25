@@ -6,3 +6,4 @@ Predicciones
 5. Agregare un par de cosas que faltaron en los archivos del anterior cambio, como reset de list style y jerarquia tipografica para los titulos.
 6. Ajustare las media queries para que el menu de header-nav y el control del carrusel sean mobile-first, empezando por mobile y agrandando con min-width.
 7. Agregare 4 productos de ejemplo hardcodeados en la grilla de productos, con fotos reales en la carpeta images, para poder ver y probar los estilos de las cards.
+8. Hare que el position sticky de los filtros aplique solo en desktop, tambien voy a hacer que el header nav sea mas compacto en mobile, volviendo a los valores actuales a partir de 768px.
