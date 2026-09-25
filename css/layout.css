@@ -4,9 +4,14 @@
 header {
   background-color: var(--color-background-alt);
   border-bottom: var(--border-width-thin) solid var(--color-border);
-  position: sticky;
-  top: 0;
   z-index: var(--z-sticky);
+}
+
+@media (min-width: 1024px) {
+  header {
+    position: sticky;
+    top: 0;
+  }
 }
 
 /* Header top - promo */
@@ -170,12 +175,19 @@ header {
 
 .header-nav a {
   display: block;
-  padding: var(--space-2) var(--space-4);
-  font-size: var(--font-size-sm);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-medium);
   color: var(--color-text);
   border-radius: var(--radius-md);
   transition: color var(--transition-fast), background-color var(--transition-fast);
+}
+
+@media (min-width: 768px) {
+  .header-nav a {
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--font-size-sm);
+  }
 }
 
 .header-nav a:hover {
@@ -383,8 +395,13 @@ main h2 {
   border: var(--border-width-thin) solid var(--color-border);
   border-radius: var(--radius-xl);
   height: fit-content;
-  position: sticky;
-  top: calc(var(--space-8) + 80px);
+}
+
+@media (min-width: 1024px) {
+  #filtros {
+    position: sticky;
+    top: calc(var(--space-8) + 80px);
+  }
 }
 
 #filtros h3 {
